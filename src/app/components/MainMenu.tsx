@@ -7,10 +7,13 @@ export default function MainMenu() {
   const pathname = usePathname()
   
   const links = [
-    { href: '/', label: 'Home' },
-    { href: '/about-me', label: 'About Me' },
+    { href: '/home', label: 'Home' },
+    { href: '/contact-us', label: 'Contact Us' },
+    { href: '/gallery', label: 'Gallery' },
+    { href: '/pages/about-me', label: 'About Me' },
     { href: '/events', label: 'Events' },
     { href: '/artists', label: 'Artists' },
+    { href: '/terms-and-conditions', label: 'Terms & Conditions' },
   ]
 
   return (
